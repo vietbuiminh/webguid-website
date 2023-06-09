@@ -1,132 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;200;300;400;500;600;700;800;900;1000&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsiveNavbar.css" />
-    <link rel="stylesheet" href="css/glide/core.css" />
-    <link rel="stylesheet" href="css/glide/theme.css" />
-    <title>Augustana Web Guild</title>
-  </head>
-  <body>
-    <header class="container">
-      <nav class="navbar hide">
-        <div class="navcontent justify">
-          <div class="nav-logo" id="nav-logo">
-            <a href="#">
-              <div class="logo-group" id="logo">
-                <!-- <img src="img/" alt="footer logo" /> -->
-              </div>
-            </a>
-          </div>
-          <!--Burger Menu for Mobile, resize the screen to see it works-->
-          <div class="burger navbar-toggle" id="js-navbar-toggle">
-            <div class="l1"></div>
-            <div class="l2"></div>
-            <div class="l3"></div>
-          </div>
-          <!--This where the nav bar menu list is -->
-          <div class="mainnav">
-            <div class="menu add-padding-right gradient" id="menu">
-              <div>
-                <a href="index.html" class="hover">Home</a>
-              </div>
-              <div>
-                <a href="about.html" class="hover">About</a>
-              </div>
-              <div>
-                <a href="get-a-website.html" class="hover">Get A Website</a>
-              </div>
-              <div>
-                <a href="clients.html" class="hover">Clients</a>
-              </div>
-              <div class="dropdown">
-                <a href="the-center.html" class="hover arrow-relative"
-                  >The Center
-                  <span class="arrow-container">
-                    <span class="nav-arrow material-symbols-outlined">
-                      expand_more
-                    </span>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;200;300;400;500;600;700;800;900;1000&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsiveNavbar.css" />
+  <link rel="stylesheet" href="css/glide/core.css" />
+  <link rel="stylesheet" href="css/glide/theme.css" />
+  <title>Augustana Web Guild</title>
+</head>
+
+<body>
+  <header class="container">
+    <nav class="navbar hide">
+      <div class="navcontent justify">
+        <div class="nav-logo" id="nav-logo">
+          <a href="#">
+            <div class="logo-group theme-shadow" id="logo">
+              <!-- <img src="img/" alt="footer logo" /> -->
+            </div>
+          </a>
+        </div>
+        <!--Burger Menu for Mobile, resize the screen to see it works-->
+        <div class="burger navbar-toggle" id="js-navbar-toggle">
+          <div class="l1"></div>
+          <div class="l2"></div>
+          <div class="l3"></div>
+        </div>
+        <!--This where the nav bar menu list is -->
+        <div class="mainnav">
+          <div class="menu add-padding-right gradient" id="menu">
+            <div>
+              <a href="index.html" class="hover">Home</a>
+            </div>
+            <div>
+              <a href="about.html" class="hover">About</a>
+            </div>
+            <div>
+              <a href="get-a-website.html" class="hover">Get A Website</a>
+            </div>
+            <div>
+              <a href="clients.html" class="hover">Clients</a>
+            </div>
+            <div class="dropdown">
+              <a href="the-center.html" class="hover arrow-relative">The Center
+                <span class="arrow-container">
+                  <span class="nav-arrow material-symbols-outlined">
+                    expand_more
                   </span>
-                </a>
-                <div class="dropdown-content">
-                  <a href="augie-student.html" class="navlink hover"
-                    >Augie Student</a
-                  >
-                  <a href="training-series.html" class="navlink hover"
-                    >Training Series</a
-                  >
-                </div>
+                </span>
+              </a>
+              <div class="dropdown-content">
+                <a href="augie-student.html" class="navlink hover">Augie Student</a>
+                <a href="training-series.html" class="navlink hover">Training Series</a>
               </div>
-              <div>
-                <a href="contact-us.html" class="hover">Contact Us</a>
-              </div>
+            </div>
+            <div>
+              <a href="contact-us.html" class="hover">Contact Us</a>
             </div>
           </div>
         </div>
-      </nav>
-    </header>
-    <main>
-      <div class="header-banner glide hero">
-        <div class="glide__track" data-glide-el="track">
-          <ul class="glide__slides">
-            <li class="glide__slide">
-              <img src="img/banner.jpg" alt="banner 1" />
-              <div class="overlay-text-wrapper">
-                <div class="overlay-gradient gradient"></div>
-                <div class="position-text">
-                  <p>Custom Web Development</p>
-                </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="header-banner glide hero">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide">
+            <img src="img/banner.jpg" alt="banner 1" />
+            <div class="overlay-text-wrapper">
+              <div class="overlay-gradient gradient"></div>
+              <div class="position-text">
+                <p>Custom Web Development</p>
               </div>
-            </li>
-            <li class="glide__slide">
-              <img src="img/banner.jpg" alt="banner 1" />
-              <div class="overlay-text-wrapper">
-                <div class="overlay-gradient gradient"></div>
-                <div class="position-text">
-                  <p>Custom Web Development</p>
-                </div>
+            </div>
+          </li>
+          <li class="glide__slide">
+            <img src="img/banner.jpg" alt="banner 1" />
+            <div class="overlay-text-wrapper">
+              <div class="overlay-gradient gradient"></div>
+              <div class="position-text">
+                <p>Custom Web Development</p>
               </div>
-            </li>
-          </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- <div class="overlay-gradient"></div> -->
+      <div class="glide__arrows" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+          <span class="material-symbols-outlined"> arrow_back_ios </span>
+        </button>
+        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+          <span class="material-symbols-outlined"> arrow_forward_ios </span>
+        </button>
+      </div>
+    </div>
+
+    <div class="join-connection justify">
+      <div class="small-corner gradient-border theme-shadow card-style">
+        <div class="title">
+          <span class="material-symbols-outlined">
+            diversity_3
+          </span>
+          <span>Community</span>
         </div>
-        <!-- <div class="overlay-gradient"></div> -->
-        <div class="glide__arrows" data-glide-el="controls">
-          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
-            <span class="material-symbols-outlined"> arrow_back_ios </span>
-          </button>
-          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
-            <span class="material-symbols-outlined"> arrow_forward_ios </span>
-          </button>
+        <div class="card-content">
+          <p>One of the Web Guild's founding missions is to educate and enlighten the communitinano around Augustana
+            College about the incredible diversity and power or the internet.</p>
+          <p>The Web Guild works toward this goal by offering web design services for nonprofit organizations and small
+            businesses.</p>
+        </div>
+        <div class="connection right-connection"></div>
+      </div>
+      <div class="small-corner gradient-border theme-shadow card-style">
+        <div class="title">
+          <span class="material-symbols-outlined">
+            school
+          </span>
+          <span>Campus</span>
+        </div>
+        <div class="card-content">
+          <p>The Web Guild provides free seminars and training on web design and development available to all Augustana
+            College students and faculty.
+          </p>
+          <p>
+            There are also ample opportunities for zero-credit and for-credit internships involving graphic design, web
+            development, and skill development.</p>
+        </div>
+        <div class="connection right-connection">
+          <div class="line-right"></div>
+        </div>
+        <div class="connection left-connection">
+          <div class="line-left"></div>
         </div>
       </div>
-    </main>
-    <footer></footer>
-    <script src="js/responsiveNavBar.js"></script>
-    <script src="js/glide.js"></script>
-    <script>
-      var glideHero = new Glide(".hero", {
-        type: "carousel",
-        animationDuration: 1000,
-        autoplay: 10000,
-        focusAt: "1",
-        startAt: 1,
-        perView: 1,
-        gap: 0,
-      });
-      glideHero.mount();
-    </script>
-  </body>
+      <div class="small-corner gradient-border theme-shadow card-style">
+        <div class="title">
+          <span class="material-symbols-outlined">
+            handshake
+          </span>
+          <span>Clients</span>
+        </div>
+        <div class="card-content">
+          <p>We have served hundreds of clients both in the Quad Cities and across the United States. Our focus is on
+            creating modern, high quality websites for small businesses and nonprofit organizations. We currently have
+            over 200 clients on annual contract.</p>
+        </div>
+        <div class="connection left-connection"></div>
+      </div>
+    </div>
+    <section></section>
+  </main>
+  <footer></footer>
+  <script src="js/responsiveNavBar.js"></script>
+  <script src="js/glide.js"></script>
+  <script>
+    var glideHero = new Glide(".hero", {
+      type: "carousel",
+      animationDuration: 1000,
+      autoplay: 100000,
+      focusAt: "1",
+      startAt: 1,
+      perView: 1,
+      gap: 0,
+    });
+    glideHero.mount();
+  </script>
+</body>
+
 </html>
